@@ -20,10 +20,10 @@ def caesar_decrypt(text, shift):
     return result
 
 parser = argparse.ArgumentParser(description="CryptoVault Phase 2 - Hash Guard")
-parser.add_argument("operation", choices=["encrypt", "decrypt"], help="The operation to perform")
-parser.add_argument("filename", help="The target file")
-parser.add_argument("--shift", type=int, default=3, help="The shift key for the cipher (default: 3)")
-parser.add_argument("--verify", action="store_true", help="Enable Hash Guard for integrity checking")
+parser.add_argument("operation", choices=["encrypt", "decrypt"])
+parser.add_argument("filename")
+parser.add_argument("--shift", type=int, default=3)
+parser.add_argument("--verify", action="store_true")
 
 args = parser.parse_args()
 
