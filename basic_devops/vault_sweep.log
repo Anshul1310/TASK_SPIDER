@@ -1,0 +1,15 @@
+[2026-06-16 13:13:58] [WARN] /var/www/spider-app/scripts/deploy.sh contains destructive command
+[2026-06-16 13:13:59] [FIX] /var/www/spider-app/scripts/deploy.sh removed world write permission
+[2026-06-16 13:13:59] [WARN] /var/www/spider-app/scripts/init.sh contains suspicious download piped into shell
+[2026-06-16 13:14:01] [FIX] /var/www/spider-app/scripts/init.sh removed world write permission
+[2026-06-16 13:14:01] [WARN] /var/www/spider-app/vault_sweep.sh contains destructive command
+[2026-06-16 13:14:02] [SKIP] /var/www/spider-app/vault_sweep.sh user skipped fix
+[2026-06-16 13:14:02] [INFO] /var/www/spider-app/config/.env.sanitized Valid: 9, Invalid: 0
+[2026-06-16 13:14:02] [INFO] /var/www/spider-app/config/.env.example.sanitized.sanitized Valid: 7, Invalid: 0
+[2026-06-16 13:14:02] [INFO] /var/www/spider-app/config/.env.sanitized.sanitized Valid: 9, Invalid: 0
+[2026-06-16 13:14:02] [INFO] /var/www/spider-app/config/.env.example.sanitized Valid: 7, Invalid: 0
+[2026-06-16 13:14:02] [INFO] /var/www/spider-app/config/.env Valid: 9, Invalid: 8
+[2026-06-16 13:14:02] [SKIP] /var/www/spider-app/config/.env Rejected: APP_PORT = 3000, DB-NAME=spiderdb, DB_USER="admin", PASSWORD = postgres_r00t_p@ss, SECRET_KEY=spdr_sk_live_9f8a2c1e4d7b3f6a0e5d8c2b1a4f7e9d3c6b, TOKEN="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiYWRtaW4ifQ.fake", export PATH=$PATH:/opt/spider/bin, LOG_LEVEL= debug
+[2026-06-16 13:14:02] [INFO] /var/www/spider-app/config/.env.example Valid: 7, Invalid: 7
+[2026-06-16 13:14:02] [SKIP] /var/www/spider-app/config/.env.example Rejected: DB-NAME=yourdb, DB_USER="youruser", DB_PASSWORD=yourpassword, SECRET_KEY=your-secret-here, API-KEY=your-api-key, TOKEN =your-token-here, LOG_LEVEL= info
+[2026-06-16 13:14:02] Vault Sweep completed.

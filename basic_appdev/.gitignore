@@ -1,0 +1,36 @@
+# Gradle build outputs and caches
+.gradle/
+build/
+/*/build/
+
+# Local environment configuration (contains your local Android SDK path)
+local.properties
+
+# Log files and system artifacts
+*.log
+.DS_Store
+Thumbs.db
+
+# Android Studio / IntelliJ files
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/gradle.xml
+.idea/assetWizardSettings.xml
+.idea/dictionaries
+.idea/libraries
+.idea/caches
+*.iml
+captures/
+.externalNativeBuild/
+.cxx/
+output-metadata.json
+
+# Production binaries (can be regenerated via Gradle)
+*.apk
+*.aar
+*.aab
+
+# Sensitive signing credentials (NEVER commit these)
+*.jks
+*.keystore
+secrets.properties
